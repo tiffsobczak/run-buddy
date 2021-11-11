@@ -126,13 +126,12 @@ section {
 /* Hero Style End*/
 .section-title{
     font-size: 55px;
+    border-bottom: 3px solid;
     color: #024e76;
     padding-bottom: 20px;
     text-align:center;
     margin: 0 auto 35px auto;
     width: 50%;
-    
-    border-bottom: 3px solid;
 }
 .primary-border {
     border-color: #fce138;
@@ -212,7 +211,6 @@ section {
 }
 .trainer img {
     width: 100%;
-    overflow: auto
 }
 .trainer-bio{
     padding: 25px;
@@ -234,7 +232,6 @@ section {
 }
 .trainer-bio p {
     font-size: 17px;
-    
 }
 
 /* REACH OUT STYLES START*/
@@ -251,6 +248,12 @@ section {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
 .contact-info iframe{
     height: 400px;
 }
